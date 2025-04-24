@@ -7,11 +7,11 @@
       <button @click="changeAge">修改年龄</button>
       <button @click="showTel">查看联系方式</button>
     </div>
-  </template>
+</template>
 
   
-  <script lang="ts" setup name="Person234">
-    // 数据，原来是写在data中的，此时的name、age、tel都不是响应式的数据
+<script lang="ts" setup name="Person234">
+    //  数据，原来是写在data中的，此时的name、age、tel都不是响应式的数据
     let name = '张三'
     let age = 18
     let tel = '13888888888'
@@ -29,9 +29,9 @@
     function showTel() {
       alert(tel)
     }
-  </script>
+</script>
   
-  <style scoped>
+<style scoped>
     .person {
       background-color: skyblue;
       box-shadow: 0 0 10px;
@@ -41,4 +41,4 @@
     button {
       margin: 0 5px;
     }
-  </style>
+</style>
